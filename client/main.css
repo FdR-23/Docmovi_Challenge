@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  font-family: sans-serif;
+
+  @apply max-w-screen-xl m-auto h-screen  bg-slate-400
+}
